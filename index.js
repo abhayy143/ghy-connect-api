@@ -1,7 +1,10 @@
 const express = require('express');
 const puppeteer = require('puppeteer');
+const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+app.use(cors());
 
 const delay = (time) => new Promise(resolve => setTimeout(resolve, time));
 
