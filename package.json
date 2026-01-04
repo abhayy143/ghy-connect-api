@@ -1,0 +1,20 @@
+{
+  "name": "ghy-connect",
+  "version": "1.0.0",
+  "description": "Guwahati Municipal Corporation API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "Abhay Chetry",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "puppeteer": "^24.34.0"
+  }
+}
